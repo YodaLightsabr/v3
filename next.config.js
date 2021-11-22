@@ -109,6 +109,11 @@ const nextConfig = {
         source: '/jobs/bank-ops-assistant/',
         destination: '/jobs/bank-ops-associate/',
         permanent: false
+      },
+      {
+        source: '/wp-admin',
+        destination: 'https://hack.af/wp-admin',
+        permanent: false
       }
     ]
   },
